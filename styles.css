@@ -1,75 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 body {
-  font-family: 'Rubik', sans-serif;
-  background-color: #24273a;
+    font-family: "Rubik", sans-serif;
+    background-color: #24273a;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-  color: #cad3f5
+    color: #cad3f5;
 }
 
 p {
-  color: #cad3f5;
-  word-wrap: break-word;
-  width: 720px;
-}
-
-p.middle {
-  text-align: center;
-}
-
-button.notClicked {
-  font-family: 'Rubik', sans-serif;
-  background-color: #363a4f;
-  color: #cad3f5;
-  height: 50px;
-  width: 150px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button.Clicked {
-  font-family: 'Rubik', sans-serif;
-  background-color: #494d64;
-  color: #cad3f5;
-  height: 50px;
-  width: 150px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-div.intro {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+    color: #cad3f5;
 }
 
 img {
-  width: 200px;
-  height: auto;
+    width: 200px;
+    height: auto;
 }
 
-div.belvis_image {
-  display: flex;
-  justify-content: center;
+/* top bar */
+div.top_bar {
+    background-color: #cad3f5;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
 }
 
-div.belvis_image .text {
-  float: left;
-  width: 200px;
-  word-wrap: break-word;
-  margin-left: 20px;
-  margin-right: 20px;
+/* intro bit */
+div.intro {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
 }
 
-div.belvis_image img.image {
-  float: left;
-  width: 200px;
-  height: auto;
+div.intro p {
+    word-wrap: break-word;
+    width: 720px;
+}
+
+/* middle bit */
+div.middle_section {
+    display: flex;
+    justify-content: center;
+}
+
+div.middle_section p.text {
+    float: left;
+    width: 240px;
+    word-wrap: break-word;
+    margin: 0px;
+}
+
+div.middle_section div.middle_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.middle_section div.middle_div img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* button */
+button.notClicked {
+    font-family: "Rubik", sans-serif;
+    background-color: #363a4f;
+    color: #cad3f5;
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.Clicked {
+    font-family: "Rubik", sans-serif;
+    background-color: #494d64;
+    color: #cad3f5;
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
