@@ -22,10 +22,40 @@ img {
 
 /* top bar */
 div.top_bar {
-    background-color: #cad3f5;
+    display: flex;
+    background-color: #1e2030;
     height: 100px;
     width: 100%;
     margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.top_bar div.left {
+    margin-left: 30px
+}
+
+div.top_bar div.right {
+    margin-right: 30px;
+}
+
+div.top_bar div.github-box {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: #cad3f5;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.top_bar div.github-box:hover {
+    background-color: #a5adcb;
+}
+
+div.top_bar div.github-box img {
+    height: 50px;
+    width: auto;
 }
 
 /* intro bit */
