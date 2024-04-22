@@ -31,12 +31,35 @@ div.top_bar {
     align-items: center;
 }
 
+div.top_bar p,
+div.top_bar a {
+    font-size: 20px;
+}
+
+div.top_bar a {
+    color: #cad3f5;
+}
+
+div.top_bar a:hover {
+    color: #7dc4e4;
+}
+
 div.top_bar div.left {
     margin-left: 30px
 }
 
+div.top_bar div.left p,
+div.top_bar div.left a {
+    margin-left: 30px;
+}
+
 div.top_bar div.right {
     margin-right: 30px;
+}
+
+div.top_bar div.right p,
+div.top_bar div.right a {
+    margin-left: 30px;
 }
 
 div.top_bar div.github-box {
@@ -56,6 +79,11 @@ div.top_bar div.github-box:hover {
 div.top_bar div.github-box img {
     height: 50px;
     width: auto;
+}
+
+div.top_bar div.left {
+    display: flex;
+    align-items: center;
 }
 
 /* intro bit */

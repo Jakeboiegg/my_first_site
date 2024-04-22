@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #24273a;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: #cad3f5;
+}
+
+p {
+  color: #cad3f5;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+/* top bar */
+div.top_bar {
+  display: flex;
+  background-color: #1e2030;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.top_bar p,
+div.top_bar a {
+  font-size: 20px;
+}
+
+div.top_bar a {
+  color: #cad3f5;
+}
+
+div.top_bar a:hover {
+  color: #7dc4e4;
+}
+
+div.top_bar div.left {
+  margin-left: 30px
+}
+
+div.top_bar div.left p,
+div.top_bar div.left a {
+  margin-left: 30px;
+}
+
+div.top_bar div.right {
+  margin-right: 30px;
+}
+
+div.top_bar div.right p,
+div.top_bar div.right a {
+  margin-left: 30px;
+}
+
+div.top_bar div.github-box {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  background-color: #cad3f5;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+div.top_bar div.github-box:hover {
+  background-color: #a5adcb;
+}
+
+div.top_bar div.github-box img {
+  height: 50px;
+  width: auto;
+}
+
+div.top_bar div.left {
+  display: flex;
+  align-items: center;
+}
+
+/* body */
+div.instructions-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.instructions-container div.instructions {
+  display: inline-block;
+}
