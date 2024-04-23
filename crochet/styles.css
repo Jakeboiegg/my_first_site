@@ -86,7 +86,7 @@ div.top_bar div.left {
   align-items: center;
 }
 
-/* body */
+/* instructions */
 div.instructions-container {
   display: flex;
   align-items: center;
@@ -95,4 +95,35 @@ div.instructions-container {
 
 div.instructions-container div.instructions {
   display: inline-block;
+}
+
+/* counter */
+div.counter-container div.subtract-button {
+  height: 30px;
+  width: 30px;
+  background-color: #ed8796;
+}
+
+div.counter-container div.counter-display {
+  height: 30px;
+  width: 100px;
+  background-color: #1e2030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.counter-container div.add-button {
+  height: 30px;
+  width: 30px;
+  background-color: #a6da95;
+}
+
+div.counter-container {
+  display: flex;
+}
+
+div.counter-container-container {
+  display: flex;
+  justify-content: center;
 }
