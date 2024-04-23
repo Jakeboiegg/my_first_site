@@ -102,6 +102,15 @@ div.counter-container div.subtract-button {
   height: 30px;
   width: 30px;
   background-color: #ed8796;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.counter-container div.subtract-button p {
+  user-select: none;
+  color: #24273a;
+  font-size: 30px;
 }
 
 div.counter-container div.counter-display {
@@ -117,6 +126,15 @@ div.counter-container div.add-button {
   height: 30px;
   width: 30px;
   background-color: #a6da95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.counter-container div.add-button p {
+  user-select: none;
+  color: #24273a;
+  font-size: 30px;
 }
 
 div.counter-container {
