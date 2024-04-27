@@ -28,7 +28,7 @@ const leg_instructions = `
 2. [ inc, sc ]x 3 (9) <br>
 3-6. sc 9 (9) <br>
  <br>
-Finish off, leaving a tail for attaching to the body later.`
+Finish off, leaving a tail`
 
 const arm_instructions = `
 1. (in Brown) MR 6 (6) <br>
@@ -36,7 +36,7 @@ const arm_instructions = `
 3-4. sc 8 (8) <br>
 5. dec, sc 6, (7) <br>
  <br>
-Finish off, leaving a tail for attaching to the body later.`
+Finish off, leaving a tail`
 
 const ears_instructions = `
 1. (in Brown) MR 4 (4) <br>
@@ -50,7 +50,7 @@ const ears_instructions = `
 11. sc 8 (8) <br>
 12. [ dec, sc 2 ]x 2 (6) <br>
  <br>
-Finish off, leaving a tail for attaching to the body later. Press flat. <br>
+Finish off, leaving a tail<br>
 Add felt`
 
 const tail_instructions = `

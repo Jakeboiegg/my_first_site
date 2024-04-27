@@ -13,10 +13,13 @@
   <div class="top_bar">
 
     <div class="left">
-      <p style="font-size: 36px; margin-left : 0px;">
-        crochet
-      </p>
+      <img src="../assets/belvis_icon.png" style="height:40px; width: 40px;">
+      <div style="width: 30px;"></div>
       <a href="../index.html">home</a>
+      <div style="width: 30px;"></div>
+      <div class="on_this_page">
+        <a href="crochet.html">crochet</a>
+      </div>
     </div>
 
     <div class="right">
@@ -27,66 +30,67 @@
     </div>
   </div>
 
-  <div style="height: 20px"></div>
+  <div class="content">
+    <div style="height: 20px"></div>
 
-  <div class="instructions-container">
-    <div class="instructions">
-      <h1 id="instructions_heading">Head</h1>
-      <p id="instructions">
-        1. (in Brown) MR 6 (6)
-        <br>
-        2. [ inc ]x 6 (12)
-        <br>
-        3. [ inc, sc ]x 6 (18)
-        <br>
-        4. sc, [ inc, sc 2 ]x 5, inc, sc (24)
-        <br>
-        5. [ inc, sc 3 ]x 6 (30)
-        <br>
-        6. sc 2, [ inc, sc 4 ]x 5, inc, sc 2 (36)
-        <br>
-        7-10. sc 36 (36)
-        <br>
-        11. [ inc, sc 5 ]x 6 (42)
-        <br>
-        12-13. sc 42 (42)
-        <br>
-        14. [ dec, sc 5 ]x 6 (36)
-        <br>
-        15. sc 2, [ dec, sc 4 ]x 5, dec, sc 2 (30)
-        <br>
-        16. [ dec, sc 3 ]x 6 (24)
-      </p>
-    </div>
-  </div>
-
-  <!-- counter -->
-  <div class="counter-container-container">
-    <select name="body_part_selection" id="body_part_selection">
-      <option value="head">head</option>
-      <option value="body">body</option>
-      <option value="leg">leg</option>
-      <option value="arm">arm</option>
-      <option value="ears">ears</option>
-      <option value="tail">tail</option>
-    </select>
-    <script src="crochet_steps.js"></script>
-
-    <div class="counter-container">
-      <div class="subtract-button" id="subtract-button">
-        <p>–</p>
+    <div class="instructions-container">
+      <div class="instructions">
+        <h1 id="instructions_heading">Head</h1>
+        <p id="instructions">
+          1. (in Brown) MR 6 (6)
+          <br>
+          2. [ inc ]x 6 (12)
+          <br>
+          3. [ inc, sc ]x 6 (18)
+          <br>
+          4. sc, [ inc, sc 2 ]x 5, inc, sc (24)
+          <br>
+          5. [ inc, sc 3 ]x 6 (30)
+          <br>
+          6. sc 2, [ inc, sc 4 ]x 5, inc, sc 2 (36)
+          <br>
+          7-10. sc 36 (36)
+          <br>
+          11. [ inc, sc 5 ]x 6 (42)
+          <br>
+          12-13. sc 42 (42)
+          <br>
+          14. [ dec, sc 5 ]x 6 (36)
+          <br>
+          15. sc 2, [ dec, sc 4 ]x 5, dec, sc 2 (30)
+          <br>
+          16. [ dec, sc 3 ]x 6 (24)
+        </p>
       </div>
-      <div class="counter-display">
-        <p class="counter-number" id="counter-number" style="user-select:none;">0</p>
-      </div>
-      <div class="add-button" id="add-button">
-        <p>+</p>
-      </div>
-      <script src="counter.js"></script>
     </div>
 
-  </div>
+    <!-- counter -->
+    <div class="counter-container-container">
+      <select name="body_part_selection" id="body_part_selection">
+        <option value="head">head</option>
+        <option value="body">body</option>
+        <option value="leg">leg</option>
+        <option value="arm">arm</option>
+        <option value="ears">ears</option>
+        <option value="tail">tail</option>
+      </select>
+      <script src="crochet_steps.js"></script>
 
+      <div class="counter-container">
+        <div class="subtract-button" id="subtract-button">
+          <p>–</p>
+        </div>
+        <div class="counter-display">
+          <p class="counter-number" id="counter-number" style="user-select:none;">0</p>
+        </div>
+        <div class="add-button" id="add-button">
+          <p>+</p>
+        </div>
+        <script src="counter.js"></script>
+      </div>
+
+    </div>
+  </div>
 </body>
 
 </html>

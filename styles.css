@@ -28,7 +28,7 @@ img {
 div.top_bar {
     display: flex;
     background-color: #1e2030;
-    height: 100px;
+    height: 70px;
     width: 100%;
     margin: 0px;
     justify-content: space-between;
@@ -42,6 +42,7 @@ div.top_bar a {
 
 div.top_bar a {
     color: #cad3f5;
+    text-decoration: none;
 }
 
 div.top_bar a:hover {
@@ -49,21 +50,19 @@ div.top_bar a:hover {
 }
 
 div.top_bar div.left {
-    margin-left: 30px
+    margin-left: 30px;
+    height: 100%;
 }
 
-div.top_bar div.left p,
-div.top_bar div.left a {
-    margin-left: 30px;
+div.top_bar div.on_this_page {
+    display: flex;
+    align-items: center;
+    height: 68px;
+    border-bottom: 2px solid #7dc4e4;
 }
 
 div.top_bar div.right {
     margin-right: 30px;
-}
-
-div.top_bar div.right p,
-div.top_bar div.right a {
-    margin-left: 30px;
 }
 
 div.top_bar div.github-box {
@@ -104,6 +103,11 @@ div.intro p {
 }
 
 /* middle bit - hot takes */
+div.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 div.hot_takes-container {
     display: flex;
     justify-content: center;
