@@ -64,8 +64,8 @@ div.top_bar div.right a {
 
 div.top_bar div.github-box {
   display: flex;
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   background-color: #cad3f5;
   border-radius: 5px;
   align-items: center;
@@ -77,7 +77,7 @@ div.top_bar div.github-box:hover {
 }
 
 div.top_bar div.github-box img {
-  height: 50px;
+  height: 32px;
   width: auto;
 }
 
@@ -155,4 +155,5 @@ select {
   margin-right: 30px;
   font-size: 16px;
   text-align: center;
+  border-radius: 0px;
 }
