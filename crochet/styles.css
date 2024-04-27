@@ -145,3 +145,14 @@ div.counter-container-container {
   display: flex;
   justify-content: center;
 }
+
+select {
+  background-color: #1e2030;
+  color: #cad3f5;
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  margin-right: 30px;
+  font-size: 16px;
+  text-align: center;
+}

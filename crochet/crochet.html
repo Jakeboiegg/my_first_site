@@ -23,7 +23,7 @@
       <div class="github-box" id="github-box" title="github page" style="border-right: 0px;">
         <img src="../assets/github-mark.png" alt="github_logo">
       </div>
-      <script src="javascript/github.js"></script>
+      <script src="../github.js"></script>
     </div>
   </div>
 
@@ -31,8 +31,8 @@
 
   <div class="instructions-container">
     <div class="instructions">
-      <h1>Head</h1>
-      <p>
+      <h1 id="instructions_heading">Head</h1>
+      <p id="instructions">
         1. (in Brown) MR 6 (6)
         <br>
         2. [ inc ]x 6 (12)
@@ -62,8 +62,17 @@
 
   <!-- counter -->
   <div class="counter-container-container">
-    <div class="counter-container">
+    <select name="body_part_selection" id="body_part_selection">
+      <option value="head">head</option>
+      <option value="body">body</option>
+      <option value="leg">leg</option>
+      <option value="arm">arm</option>
+      <option value="ears">ears</option>
+      <option value="tail">tail</option>
+    </select>
+    <script src="crochet_steps.js"></script>
 
+    <div class="counter-container">
       <div class="subtract-button" id="subtract-button">
         <p>–</p>
       </div>
@@ -73,10 +82,9 @@
       <div class="add-button" id="add-button">
         <p>+</p>
       </div>
-      <script src="init_counter.js"></script>
       <script src="counter.js"></script>
-
     </div>
+
   </div>
 
 </body>
