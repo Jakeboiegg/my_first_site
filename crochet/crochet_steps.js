@@ -72,39 +72,51 @@ function update_instructions() {
   var instructionsElement = document.getElementById("instructions")
   var headingElement = document.getElementById("instructions_heading")
 
-  console.log(selectElement.value)
   switch (selectElement.value) {
     case "head":
       headingElement.textContent = "head"
       instructionsElement.innerHTML = head_instructions
+      localStorage.setItem("crochet_part_instructions", "head")
       break;
 
     case "body":
       headingElement.textContent = "body"
       instructionsElement.innerHTML = body_instructions
+      localStorage.setItem("crochet_part_instructions", "body")
       break;
 
     case "leg":
       headingElement.textContent = "leg"
       instructionsElement.innerHTML = leg_instructions
+      localStorage.setItem("crochet_part_instructions", "leg")
       break;
 
     case "arm":
       headingElement.textContent = "arm"
       instructionsElement.innerHTML = arm_instructions
+      localStorage.setItem("crochet_part_instructions", "arm")
       break;
 
     case "ears":
       headingElement.textContent = "ears"
       instructionsElement.innerHTML = ears_instructions
+      localStorage.setItem("crochet_part_instructions", "ears")
       break;
 
     case "tail":
       headingElement.textContent = "tail"
       instructionsElement.innerHTML = tail_instructions
+      localStorage.setItem("crochet_part_instructions", "tail")
       break;
   }
 }
+
+var selectElement = document.getElementById("body_part_selection")
+if (localStorage.getItem("crochet_part_instructions") == null) {
+  localStorage.setItem("crochet_part_instructions", "head")
+}
+selectElement.value = localStorage.getItem("crochet_part_instructions")
+update_instructions()
 
 document.getElementById("body_part_selection").addEventListener("change", function() {
   update_instructions()
